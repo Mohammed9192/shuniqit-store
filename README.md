@@ -51,6 +51,10 @@ A production-ready e-commerce platform built with Next.js, Prisma, and Tailwind 
 
 7. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+## Admin Credentials (Development)
+- **Email**: user1@example.com
+- **Password**: password123
+
 ## Project Structure
 - `app/`: Next.js App Router pages and layouts.
 - `components/`: Reusable UI components.

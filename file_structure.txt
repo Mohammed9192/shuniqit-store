@@ -1,0 +1,40 @@
+shuniqit-store/
+├── .env.example
+├── .gitignore
+├── CHANGELOG.md
+├── README.md
+├── docker-compose.yml
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── admin/
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── auth/
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   └── register/
+│   │       └── page.tsx
+│   ├── cart/
+│   │   └── page.tsx
+│   ├── checkout/
+│   │   └── page.tsx
+│   └── products/
+│       └── [id]/
+│           └── page.tsx
+├── components/
+│   ├── Footer.tsx
+│   ├── Navbar.tsx
+│   └── ProductCard.tsx
+├── lib/
+│   ├── prisma.ts
+│   └── utils.ts
+└── prisma/
+    ├── schema.prisma
+    └── seed.ts
